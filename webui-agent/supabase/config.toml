@@ -1,0 +1,7 @@
+project_id = "azfyupthqvxfdslkdgfd"
+
+[functions.cognee-remember]
+verify_jwt = false
+
+[functions.cognee-ask]
+verify_jwt = false

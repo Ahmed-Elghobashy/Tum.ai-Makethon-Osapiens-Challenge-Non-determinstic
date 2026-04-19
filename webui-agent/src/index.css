@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ForestWatch AI design system - earth tones */
+@layer base {
+  :root {
+    --background: 40 33% 96%;
+    --foreground: 30 25% 15%;
+
+    --card: 40 40% 98%;
+    --card-foreground: 30 25% 15%;
+
+    --popover: 40 40% 98%;
+    --popover-foreground: 30 25% 15%;
+
+    /* Forest green */
+    --primary: 87 56% 20%;
+    --primary-foreground: 40 33% 96%;
+
+    /* Beige */
+    --secondary: 38 35% 88%;
+    --secondary-foreground: 30 25% 15%;
+
+    --muted: 38 25% 90%;
+    --muted-foreground: 30 15% 35%;
+
+    /* Brown accent */
+    --accent: 25 59% 31%;
+    --accent-foreground: 40 33% 96%;
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 40 33% 96%;
+
+    --success: 87 56% 30%;
+    --success-foreground: 40 33% 96%;
+
+    --warning: 35 90% 45%;
+    --warning-foreground: 30 25% 15%;
+
+    --border: 35 20% 80%;
+    --input: 35 20% 80%;
+    --ring: 87 56% 20%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 40 33% 96%;
+    --sidebar-foreground: 30 25% 15%;
+    --sidebar-primary: 87 56% 20%;
+    --sidebar-primary-foreground: 40 33% 96%;
+    --sidebar-accent: 38 35% 88%;
+    --sidebar-accent-foreground: 30 25% 15%;
+    --sidebar-border: 35 20% 80%;
+    --sidebar-ring: 87 56% 20%;
+  }
+
+  .dark {
+    --background: 140 30% 6%;
+    --foreground: 90 20% 92%;
+    --card: 140 25% 9%;
+    --card-foreground: 90 20% 92%;
+    --popover: 140 25% 9%;
+    --popover-foreground: 90 20% 92%;
+    --primary: 87 50% 55%;
+    --primary-foreground: 140 30% 6%;
+    --secondary: 140 20% 14%;
+    --secondary-foreground: 90 20% 92%;
+    --muted: 140 18% 14%;
+    --muted-foreground: 90 12% 70%;
+    --accent: 30 55% 50%;
+    --accent-foreground: 140 30% 6%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 90 20% 92%;
+    --success: 87 50% 55%;
+    --success-foreground: 140 30% 6%;
+    --warning: 35 90% 60%;
+    --warning-foreground: 140 30% 6%;
+    --border: 140 20% 18%;
+    --input: 140 20% 18%;
+    --ring: 87 50% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

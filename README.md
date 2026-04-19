@@ -13,7 +13,7 @@ Current best leaderboard result:
 | False positive rate | 36.9% |
 | Year error | 0.0% |
 
-![Leaderboard result](TUM.ai_Makeathon_Non_Deterministic/public/leaderboard.png)
+![Leaderboard result](webui-agent/public/leaderboard.png)
 
 ## Final Pipeline
 
@@ -50,7 +50,7 @@ https://earth-view-monitor.lovable.app/
 UI source:
 
 ```text
-TUM.ai_Makeathon_Non_Deterministic/
+webui-agent/
 ```
 
 The UI/Agent supports inspection and monitoring of detected deforestation regions.
@@ -62,4 +62,3 @@ The UI/Agent supports inspection and monitoring of detected deforestation region
 - Ahmed Maher
 - Syrine
 - Aaron
-# Tum.ai-Makethon-Osapiens-Challenge-Non-determinstic
