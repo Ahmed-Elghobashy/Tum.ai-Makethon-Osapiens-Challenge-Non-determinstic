@@ -1,5 +1,13 @@
 # Non Deterministic - osapiens Makeathon 2026
 
+## Authors
+
+- Ahmed Elghobashy - ahmadsamir694@gmail.com
+- Youssef Abdelaal - Youssef.e.amer@gmail.com
+- Ahmed Maher
+- Syrine 
+- Aaron
+
 Deforestation detection submission for the osapiens Makeathon 2026 challenge.
 
 ## Result
@@ -55,10 +63,4 @@ webui-agent/
 
 The UI/Agent supports inspection and monitoring of detected deforestation regions.
 
-## Authors
 
-- Ahmed Elghobashy - ahmadsamir694@gmail.com
-- Youssef Abdelaal - Youssef.e.amer@gmail.com
-- Ahmed Maher
-- Syrine
-- Aaron
