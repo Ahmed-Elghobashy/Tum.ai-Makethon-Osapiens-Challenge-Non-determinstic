@@ -21,7 +21,7 @@ Current best leaderboard result:
 | False positive rate | 36.9% |
 | Year error | 0.0% |
 
-![Leaderboard result](webui-agent/public/leaderboard.png)
+![Leaderboard result](docs/leaderboard.png)
 
 ## Final Pipeline
 
@@ -49,6 +49,25 @@ LGB > 0.25 OR (XGB > 0.17 AND LGB > 0.10)
 
 Old S1/S2 experiments, AEF PCA experiments, and debugging notebooks are not part of the final pipeline.
 
+## Repository Layout
+
+```text
+.
+├── final_aef_lgbm_xgb_submission.ipynb
+├── submission_utils.py
+├── download_data.py
+├── requirements.txt
+├── docs/
+│   ├── leaderboard.png
+│   ├── challenge_description.md
+│   └── assets/
+├── notebooks/
+│   └── experiments/
+└── webui-agent/
+```
+
+`notebooks/experiments/` contains exploratory notebooks kept for traceability. The final submission path is the root notebook above.
+
 ## UI / Agent
 
 Project UI:
@@ -62,5 +81,4 @@ webui-agent/
 ```
 
 The UI/Agent supports inspection and monitoring of detected deforestation regions.
-
 
